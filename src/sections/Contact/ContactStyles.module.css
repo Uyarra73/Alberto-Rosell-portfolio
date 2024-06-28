@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+textarea, input:not([type='submit']) {
+    height: 50px;
+    padding-left: 16px;
+    width: 250px;
+}
+
+textarea {
+    padding-top: 16px;
+    resize: none;
+    height: 250px;
+}
