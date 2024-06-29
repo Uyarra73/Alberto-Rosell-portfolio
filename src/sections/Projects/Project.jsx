@@ -14,6 +14,11 @@ const Project = () => {
                 link={'https://caminovisualworks.netlify.app/'} 
                 h3='Camino landing page' 
                 p='HTML, CSS and JS landing page'/>
+            <ProjectCard 
+                src={camino} 
+                link={'https://caminovisualworks.netlify.app/'} 
+                h3='Camino landing page' 
+                p='HTML, CSS and JS landing page'/>
         </div>
     </section>
   );
