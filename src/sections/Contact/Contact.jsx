@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <section id='contact' className={styles.container}>
         <h1 className='sectionTitle'>Contact me</h1>
-        <form action='https://formspree.io/f/mpwazawd' method='post'>
+        <form action='https://formspree.io/f/mpwazawd' method='post' target='_blank'>
             <div className='formGroup'>
                 <label htmlFor='name' hidden>Name</label>
                 <input type='text' id='name' name='name' placeholder='Your Name' required/>

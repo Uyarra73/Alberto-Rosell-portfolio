@@ -42,7 +42,7 @@ const Hero = () => {
               <img src={linkedinIcon} alt='Linkedin Icon'/>
             </a>
           </span>
-          <p className={styles.description}>With a passion for developing modern React web apps for any kind of busimesses</p>
+          <p className={styles.description}>With a passion for developing modern web sites and apps for any kind of busimesses</p>
           <a href={CV} download>
             <button className='hover'>Download CV</button>
           </a>
