@@ -69,6 +69,8 @@ p {
     cursor: pointer;
 }
 
+/* The design of the web is optimezed for mobile devices. Media queries are implemented for bigger screens */
+
 @media (width >= 800px) {
     #root {
         gap: 100px;
